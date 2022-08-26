@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+  }
+  h2 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.trn{
+  z-index: 99;
+}
+
+.hero{
+  height: 100vh;
+  margin-top: -100px;
+  background-color: #b12a5b;
+  border-radius: 0 0 50% 50%;
+}
+
+.product{
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  min-height: 100vh;
+  max-width: 75vw;
+  z-index: 1;
+  margin: -200px auto auto auto;
+}
+
+.product-item{
+  max-width: 65%;
+}
